@@ -1,0 +1,14 @@
+body {
+    background-image: url("/CSS/img/inkvault2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+body{
+    font-family: fantasy;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,52 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.agenda {
+    list-style-type: none;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0;
+    padding: 20px;
+}
+
+
+li{
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 28px;
+    margin: 0px;
+    padding: 5px ;
+    width: 300px;
+}
+li a:hover{
+    display: block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(60, 63, 63) , rgb(143, 143, 143));
+    color: aliceblue;
+    font-size: 31px;
+    margin: 0px;
+    padding: 5px ;
+    width: 300px;
+    border-radius: 18px 8px 15px 8px;
+}
+li a:active{
+    display: block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(60, 63, 63) , rgb(143, 143, 143));
+    color: rgb(255, 255, 255);
+    font-size: 31px;
+    margin: 0px;
+    padding: 5px ;
+    width: 300px;
+    border-radius: 15px;
+}

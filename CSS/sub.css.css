@@ -1,0 +1,55 @@
+body {
+    display: grid;
+}
+
+.expo_tab {
+    width: 750px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+table,
+th,
+td {
+    border: 3px solid rgb(49, 49, 49);
+    border-collapse: collapse;
+    border-radius: 8px;
+}
+
+th,
+td {
+    background-color: rgb(51, 72, 73);
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+}
+
+td {
+    font-size: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(63, 98, 100);
+}
+
+tr td:nth-child(2):hover {
+    font-size: 20px;
+    background-color: rgb(70, 69, 51);
+}
+
+.expo_tab img {
+    height: 40px;
+    width: auto;
+}
+
+.nav img {
+    height: 40px;
+    width: auto;
+}
+
+button {
+    border-radius: 2px;
+}
